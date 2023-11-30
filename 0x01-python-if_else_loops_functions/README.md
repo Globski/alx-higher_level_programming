@@ -9,22 +9,22 @@ This repository contains a collection of Python scripts and programs. Each scrip
 | Task | Description | Source Code Link |
 | ---- | ----------- | ----------------- |
 | 0. Positive anything is better than negative nothing | Program to assign and print a random signed number | [0-positive_or_negative.py](./0x01-python-if_else_loops_functions/0-positive_or_negative.py) |
-| 1. The last digit | Print the last digit of a random signed number | [1-last_digit.py](./0x01-python-if_else_loops_functions/1-last_digit.py) |
-| 2. I sometimes suffer from insomnia... | Print ASCII alphabet in lowercase | [2-print_alphabet.py](./0x01-python-if_else_loops_functions/2-print_alphabet.py) |
-| 3. When I was having that alphabet soup... | Print ASCII alphabet in lowercase excluding 'q' and 'e' | [3-print_alphabt.py](./0x01-python-if_else_loops_functions/3-print_alphabt.py) |
-| 4. Hexadecimal printing | Print numbers from 0 to 98 in decimal and hexadecimal | [4-print_hexa.py](./0x01-python-if_else_loops_functions/4-print_hexa.py) |
-| 5. 00...99 | Print numbers from 0 to 99 with specific formatting | [5-print_comb2.py](./0x01-python-if_else_loops_functions/5-print_comb2.py) |
-| 6. Inventing is a combination of brains and materials... | Print all possible combinations of two digits | [6-print_comb3.py](./0x01-python-if_else_loops_functions/6-print_comb3.py) |
-| 7. islower | Function to check if a character is lowercase | [7-islower.py](./0x01-python-if_else_loops_functions/7-islower.py) |
-| 8. To uppercase | Function to print a string in uppercase | [8-uppercase.py](./0x01-python-if_else_loops_functions/8-uppercase.py) |
-| 9. There are only 3 colors, 10 digits... | Function to print the last digit of a number | [9-print_last_digit.py](./0x01-python-if_else_loops_functions/9-print_last_digit.py) |
-| 10. a + b | Function to add two integers | [10-add.py](./0x01-python-if_else_loops_functions/10-add.py) |
-| 11. a ^ b | Function to compute a to the power of b | [11-pow.py](./0x01-python-if_else_loops_functions/11-pow.py) |
-| 12. Fizz Buzz | Function to print numbers with Fizz, Buzz, FizzBuzz conditions | [12-fizzbuzz.py](./0x01-python-if_else_loops_functions/12-fizzbuzz.py) |
-| 13. Insert in sorted linked list | Function to insert a number into a sorted linked list | [13-insert_number.c](./0x01-python-if_else_loops_functions/13-insert_number.c), [lists.h](./0x01-python-if_else_loops_functions/lists.h) |
-| 14. Smile in the mirror | Program to print the ASCII alphabet in reverse order, alternating lowercase and uppercase | [100-print_tebahpla.py](./0x01-python-if_else_loops_functions/100-print_tebahpla.py) |
-| 15. Remove at position | Function to remove a character from a string at a given position | [101-remove_char_at.py](./0x01-python-if_else_loops_functions/101-remove_char_at.py) |
-| 16. ByteCode -> Python #2 | Python function to match given Python bytecode | [102-magic_calculation.py](./0x01-python-if_else_loops_functions/102-magic_calculation.py) |
+| 1. The last digit | Print the last digit of a random signed number | [1-last_digit.py](./1-last_digit.py) |
+| 2. I sometimes suffer from insomnia... | Print ASCII alphabet in lowercase | [2-print_alphabet.py](./2-print_alphabet.py) |
+| 3. When I was having that alphabet soup... | Print ASCII alphabet in lowercase excluding 'q' and 'e' | [3-print_alphabt.py](./3-print_alphabt.py) |
+| 4. Hexadecimal printing | Print numbers from 0 to 98 in decimal and hexadecimal | [4-print_hexa.py](./4-print_hexa.py) |
+| 5. 00...99 | Print numbers from 0 to 99 with specific formatting | [5-print_comb2.py](./5-print_comb2.py) |
+| 6. Inventing is a combination of brains and materials... | Print all possible combinations of two digits | [6-print_comb3.py](./6-print_comb3.py) |
+| 7. islower | Function to check if a character is lowercase | [7-islower.py](./7-islower.py) |
+| 8. To uppercase | Function to print a string in uppercase | [8-uppercase.py](./8-uppercase.py) |
+| 9. There are only 3 colors, 10 digits... | Function to print the last digit of a number | [9-print_last_digit.py](./9-print_last_digit.py) |
+| 10. a + b | Function to add two integers | [10-add.py](./10-add.py) |
+| 11. a ^ b | Function to compute a to the power of b | [11-pow.py](./11-pow.py) |
+| 12. Fizz Buzz | Function to print numbers with Fizz, Buzz, FizzBuzz conditions | [12-fizzbuzz.py](./12-fizzbuzz.py) |
+| 13. Insert in sorted linked list | Function to insert a number into a sorted linked list | [13-insert_number.c](./13-insert_number.c), [lists.h](./0x01-python-if_else_loops_functions/lists.h) |
+| 14. Smile in the mirror | Program to print the ASCII alphabet in reverse order, alternating lowercase and uppercase | [100-print_tebahpla.py](./100-print_tebahpla.py) |
+| 15. Remove at position | Function to remove a character from a string at a given position | [101-remove_char_at.py](./101-remove_char_at.py) |
+| 16. ByteCode -> Python #2 | Python function to match given Python bytecode | [102-magic_calculation.py](./102-magic_calculation.py) |
 
 ## Environment
 - All Python scripts are interpreted on Ubuntu 20.04 LTS using Python 3.8.5.
