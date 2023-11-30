@@ -8,6 +8,7 @@ msg = "Last digit of {} is {} and is".format(number, last_digit)
 
 if number < 0:
     last_digit = -last_digit
+    msg = "Last digit of {} is {} and is".format(number, last_digit)
 
 if last_digit > 5:
     print("{} greater than 5".format(msg))
