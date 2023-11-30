@@ -5,4 +5,4 @@ for digits in range(10):
         if digits < 9:
             print("{:d}{:d}, ".format(digits, digit1), end="")
         else:
-            print("{:d}{:d}".format(digits, digit1))
+            print("{:d}{:d}".format(digits, digit1), end="\n")
