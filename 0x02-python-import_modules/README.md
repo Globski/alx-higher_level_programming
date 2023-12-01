@@ -8,16 +8,16 @@ This repository contains a collection of Python scripts focusing on concepts rel
 
 | Task | Description | Source Code Link |
 | ---- | ----------- | ----------------- |
-| 0. Import a simple function from a simple file | Program to import a function from an external file | [0-import_add.py](./0x02-python-import_modules/0-import_add.py), [0-add.py](./0x02-python-import_modules/0-add.py) |
-| 1. My first toolbox! | Program to import functions from an external file and perform mathematical operations | [1-calculation.py](./0x02-python-import_modules/1-calculation.py), [calculator_1.py](./0x02-python-import_modules/calculator_1.py) |
-| 2. How to make a script dynamic! | Program to print the number and list of command line arguments | [2-args.py](./0x02-python-import_modules/2-args.py) |
-| 3. Infinite addition | Program to print the result of the addition of all command line arguments | [3-infinite_add.py](./0x02-python-import_modules/3-infinite_add.py) |
-| 4. Who are you? | Program to print names defined in a compiled module | [4-hidden_discovery.py](./0x02-python-import_modules/4-hidden_discovery.py), [hidden_4.pyc](./0x02-python-import_modules/hidden_4.pyc) |
-| 5. Everything can be imported | Program to import a variable from an external file | [5-variable_load.py](./0x02-python-import_modules/5-variable_load.py), [variable_load_5.py](./0x02-python-import_modules/variable_load_5.py) |
-| 6. Build my own calculator! | Program to import functions and handle basic operations | [100-my_calculator.py](./0x02-python-import_modules/100-my_calculator.py), [calculator_1.py](./0x02-python-import_modules/calculator_1.py) |
-| 7. Easy print | Program to print a specific string without using print, eval, open, or sys | [101-easy_print.py](./0x02-python-import_modules/101-easy_print.py) |
-| 8. ByteCode -> Python #3 | Python function to match given Python bytecode | [102-magic_calculation.py](./0x02-python-import_modules/102-magic_calculation.py) |
-| 9. Fast alphabet | Program to print the alphabet in uppercase | [103-fast_alphabet.py](./0x02-python-import_modules/103-fast_alphabet.py) |
+| 0. Import a simple function from a simple file | Program to import a function from an external file | [0-import_add.py](./0-import_add.py), [0-add.py](./0-add.py) |
+| 1. My first toolbox! | Program to import functions from an external file and perform mathematical operations | [1-calculation.py](./1-calculation.py), [calculator_1.py](./calculator_1.py) |
+| 2. How to make a script dynamic! | Program to print the number and list of command line arguments | [2-args.py](./2-args.py) |
+| 3. Infinite addition | Program to print the result of the addition of all command line arguments | [3-infinite_add.py](./3-infinite_add.py) |
+| 4. Who are you? | Program to print names defined in a compiled module | [4-hidden_discovery.py](./4-hidden_discovery.py), [hidden_4.pyc](./hidden_4.pyc) |
+| 5. Everything can be imported | Program to import a variable from an external file | [5-variable_load.py](./5-variable_load.py), [variable_load_5.py](./variable_load_5.py) |
+| 6. Build my own calculator! | Program to import functions and handle basic operations | [100-my_calculator.py](./100-my_calculator.py), [calculator_1.py](./calculator_1.py) |
+| 7. Easy print | Program to print a specific string without using print, eval, open, or sys | [101-easy_print.py](./101-easy_print.py) |
+| 8. ByteCode -> Python #3 | Python function to match given Python bytecode | [102-magic_calculation.py](./102-magic_calculation.py) |
+| 9. Fast alphabet | Program to print the alphabet in uppercase | [103-fast_alphabet.py](./103-fast_alphabet.py) |
 
 ## Environment
 - All Python scripts are interpreted on Ubuntu 20.04 LTS using Python 3.8.5.
