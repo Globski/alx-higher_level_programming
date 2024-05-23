@@ -67,11 +67,12 @@ Follow these steps to run the SQL scripts:
   $ sudo apt update
   $ sudo apt install mysql-server
   ```
+  - Use "container-on-demand" to run MySQL:
+  ```
+  $ service mysql start
+  ```
 - Connect to MySQL server:
   ```
   $ sudo mysql
   ```
-- Use "container-on-demand" to run MySQL:
-  ```
-  $ service mysql start
-  ```
+
