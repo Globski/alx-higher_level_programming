@@ -1,4 +1,4 @@
-# 0x0D. SQL - Introduction
+High-Level Programming - SQL Introduction
 
 ## Project Description
 
