@@ -1,4 +1,4 @@
-High-Level Programming - SQL Introduction
+# High-Level Programming - SQL Introduction
 
 ## Project Description
 
