@@ -1,2 +1,4 @@
 #!/usr/bin/node
-exports.converter = function (base) { return function (number) { return number.toString(base); }; };
+const list = require('./100-data.js').list;
+console.log(list);
+console.log(list.map((value, index) => value * index));
