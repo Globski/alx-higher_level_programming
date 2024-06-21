@@ -1,8 +1,8 @@
 #!/usr/bin/node
-const args = process.argv.slice(2).map(Number);
-if (args.length <= 1) {
-  console.log(0);
-} else {
-  args.sort((a, b) => b - a);
-  console.log(args[1]);
-}
+const myObject = {
+  type: 'object',
+  value: 12
+};
+console.log(myObject);
+myObject.value = 89;
+console.log(myObject);
