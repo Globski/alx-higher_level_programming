@@ -6,28 +6,26 @@ This repository contains a series of tasks aimed at getting you started with Jav
 
 ## Project Structure
 
-### Table
-
-| **Task**                     | **Description**                                     | **Source Code**              |
-|------------------------------|-----------------------------------------------------|------------------------------|
-| Task 0: First constant, first print | Write a script that prints "JavaScript is amazing" | `0-javascript_is_amazing.js` |
-| Task 1: 3 languages          | Write a script that prints 3 lines                  | `1-multi_languages.js`       |
-| Task 2: Arguments            | Write a script that prints a message based on arguments passed | `2-arguments.js`      |
-| Task 3: Value of my argument | Write a script that prints the first argument passed to it | `3-value_argument.js` |
-| Task 4: Create a sentence    | Write a script that prints two arguments in a specific format | `4-concat.js`        |
-| Task 5: An Integer           | Write a script that prints "My number: "            | `5-to_integer.js`            |
-| Task 6: Loop to languages    | Write a script that prints 3 lines using an array of strings and a loop | `6-multi_languages_loop.js` |
-| Task 7: I love C             | Write a script that prints `x` times "C is fun"     | `7-multi_c.js`               |
-| Task 8: Square               | Write a script that prints a square                 | `8-square.js`                |
-| Task 9: Add                  | Write a script that prints the addition of 2 integers | `9-add.js`                |
-| Task 10: Factorial           | Write a script that computes and prints a factorial | `10-factorial.js`            |
-| Task 11: Second biggest!     | Write a script that searches for the second biggest integer in the list of arguments | `11-second_biggest.js` |
-| Task 12: Object              | Update a script to replace the value 12 with 89     | `12-object.js`               |
-| Task 13: Add file            | Write a function that returns the addition of 2 integers | `13-add.js`                |
-| Task 14: Const or not const  | Write a file that modifies the value of `myVar` to 333 | `100-let_me_const.js`      |
-| Task 15: Call me Moby        | Write a function that executes `x` times a function | `101-call_me_moby.js`        |
-| Task 16: Add me maybe        | Write a function that increments and calls a function | `102-add_me_maybe.js`      |
-| Task 17: Increment object    | Update a script by adding a new function `incr` that increments the integer value | `103-object_fct.js`        |
+| **Task**                     | **Description**                                     | **Source Code**                 |
+|------------------------------|-----------------------------------------------------|---------------------------------|
+| Task 0: First constant, first print | Write a script that prints "JavaScript is amazing" | [0-javascript_is_amazing.js](./0-javascript_is_amazing.js) |
+| Task 1: 3 languages          | Write a script that prints 3 lines                  | [1-multi_languages.js](./1-multi_languages.js)       |
+| Task 2: Arguments            | Write a script that prints a message based on arguments passed | [2-arguments.js](./2-arguments.js)      |
+| Task 3: Value of my argument | Write a script that prints the first argument passed to it | [3-value_argument.js](./3-value_argument.js) |
+| Task 4: Create a sentence    | Write a script that prints two arguments in a specific format | [4-concat.js](./4-concat.js)        |
+| Task 5: An Integer           | Write a script that prints "My number: "            | [5-to_integer.js](./5-to_integer.js)            |
+| Task 6: Loop to languages    | Write a script that prints 3 lines using an array of strings and a loop | [6-multi_languages_loop.js](./6-multi_languages_loop.js) |
+| Task 7: I love C             | Write a script that prints `x` times "C is fun"     | [7-multi_c.js](./7-multi_c.js)               |
+| Task 8: Square               | Write a script that prints a square                 | [8-square.js](./8-square.js)                |
+| Task 9: Add                  | Write a script that prints the addition of 2 integers | [9-add.js](./9-add.js)                |
+| Task 10: Factorial           | Write a script that computes and prints a factorial | [10-factorial.js](./10-factorial.js)            |
+| Task 11: Second biggest!     | Write a script that searches for the second biggest integer in the list of arguments | [11-second_biggest.js](./11-second_biggest.js) |
+| Task 12: Object              | Update a script to replace the value 12 with 89     | [12-object.js](./12-object.js)               |
+| Task 13: Add file            | Write a function that returns the addition of 2 integers | [13-add.js](./13-add.js)                |
+| Task 14: Const or not const  | Write a file that modifies the value of `myVar` to 333 | [100-let_me_const.js](./100-let_me_const.js)      |
+| Task 15: Call me Moby        | Write a function that executes `x` times a function | [101-call_me_moby.js](./101-call_me_moby.js)        |
+| Task 16: Add me maybe        | Write a function that increments and calls a function | [102-add_me_maybe.js](./102-add_me_maybe.js)      |
+| Task 17: Increment object    | Update a script by adding a new function `incr` that increments the integer value | [103-object_fct.js](./103-object_fct.js)        |
 
 ## Requirements
 
