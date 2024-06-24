@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Displays all values in the states table of hbtn_0e_0_usa 
+Displays all values in the states table of hbtn_0e_0_usa
 where name matches the argument.
 Safe from SQL injections.
 
