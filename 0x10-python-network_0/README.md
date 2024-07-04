@@ -61,25 +61,22 @@ By the end of this project, you should be able to:
 ## How to Use
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/alx-higher_level_programming.git
-   ```
+```bash
+git clone https://github.com/your_username/alx-higher_level_programming.git
+```
 2. Navigate to the project directory:
-   ```bash
-   cd alx-higher_level_programming/0x10-python-network_0
-   ```
+```bash
+cd alx-higher_level_programming/0x10-python-network_0
+```
 3. Run the scripts according to their tasks. For example, to run Task 0:
-   ```bash
-   ./0-body_size.sh http://example.com
-
+```bash
+./0-body_size.sh http://example.com
+```
 4. To execute a Bash script, use the following command:
-
 ```sh
 ./script_name.sh
 ```
-
 5. To run a Python script, use the following command:
-
 ```sh
 ./script_name.py
 ```
