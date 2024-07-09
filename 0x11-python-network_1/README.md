@@ -19,10 +19,6 @@ This project focuses on using Python for making HTTP requests, fetching internet
 | 8. Search API | Write a Python script that takes in a letter and sends a `POST` request to `http://0.0.0.0:5000/search_user` with the letter as a parameter. Display the `id` and `name` if the response is properly formatted JSON and not empty, otherwise display `Not a valid JSON` or `No result`. | [8-json_api.py](8-json_api.py) |
 | 9. My GitHub! | Write a Python script that takes your GitHub credentials (username and password) and uses the GitHub API to display your `id`. | [10-my_github.py](10-my_github.py) |
 | 10. Time for an interview! | Write a Python script that takes 2 arguments in order to solve this challenge of listing 10 commits from a GitHub repository. | [100-github_commits.py](100-github_commits.py) |
-| 11. I don't care about Pycodestyle | Advanced task  | `101-starwars.py` |
-| 12. Star Wars API #0 | Advanced task  | `102-starwars.py` |
-| 13. Star Wars API #1 | Advanced task  | `103-starwars.py` |
-
 
 ## Learning Objectives
 
