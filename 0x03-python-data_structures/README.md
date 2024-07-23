@@ -65,12 +65,6 @@ This project involves solving various tasks related to Python data structures, s
 2. **Run the Code:** Execute the Python files to test the functions or compile the C files using the provided commands.
 3. **Testing:** Use the corresponding main files to run and test the tasks.
 
-
-
-
-
-
-
 # Tasks
 
 ### **0. Print a List of Integers**
