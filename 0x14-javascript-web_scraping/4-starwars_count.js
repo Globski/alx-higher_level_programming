@@ -7,7 +7,7 @@ request(apiUrl, (error, response, body) => {
     console.error(error);
   } else {
     const data = JSON.parse(body);
-    const count = data.results.filter(film => 
+    const count = data.results.filter(film =>
       film.characters.find(character => character.endsWith('/18/'))
     ).length;
     console.log(count);
