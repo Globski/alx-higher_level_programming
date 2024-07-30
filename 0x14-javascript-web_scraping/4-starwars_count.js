@@ -7,7 +7,9 @@ request(apiUrl, (error, response, body) => {
     console.error(error);
   } else {
     const data = JSON.parse(body);
-    const count = data.results.filter(film => film.characters.includes('https://swapi-api.alx-tools.com/api/people/18/')).length;
+    const count = data.results.filter(film => 
+      film.characters.find(character => character.endsWith('/18/'))
+    ).length;
     console.log(count);
   }
 });
