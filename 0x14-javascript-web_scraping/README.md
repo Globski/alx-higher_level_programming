@@ -8,7 +8,7 @@ This project involves creating various scripts to practice web scraping, handle 
 
 | Task | Description | Source Code |
 |------|-------------|-------------|
-| `0-readme.js` | Write a script that reads and prints the content of a file. The first argument is the file path. The content of the file must be read in UTF-8. If an error occurs during reading, print the error object. | [Source Code](/0-readme.js) |
+| `0-readme.js` | Write a script that reads and prints the content of a file. The first argument is the file path. The content of the file must be read in UTF-8. If an error occurs during reading, print the error object. | [Source Code](./0-readme.js) |
 | `1-writeme.js` | Write a script that writes a string to a file. The first argument is the file path. The second argument is the string to write. The content of the file must be written in UTF-8. If an error occurs during writing, print the error object. | [Source Code](/1-writeme.js) |
 | `2-statuscode.js` | Write a script that displays the status code of a GET request. The first argument is the URL to request (GET). The status code must be printed in the format: `code: <status_code>`. You must use the module `request`. | [Source Code](/2-statuscode.js) |
 | `3-starwars_title.js` | Write a script that prints the title of a Star Wars movie where the episode number matches a given integer. The first argument is the movie ID. You must use the Star Wars API with the endpoint `https://swapi-api.alx-tools.com/api/films/:id`. You must use the module `request`. | [Source Code](/3-starwars_title.js) |
