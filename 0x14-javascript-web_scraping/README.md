@@ -8,15 +8,15 @@ This project involves creating various scripts to practice web scraping, handle 
 
 | Task | Description | Source Code |
 |------|-------------|-------------|
-| `0-readme.js` | Write a script that reads and prints the content of a file. The first argument is the file path. The content of the file must be read in UTF-8. If an error occurs during reading, print the error object. | [Source Code](path/to/0-readme.js) |
-| `1-writeme.js` | Write a script that writes a string to a file. The first argument is the file path. The second argument is the string to write. The content of the file must be written in UTF-8. If an error occurs during writing, print the error object. | [Source Code](path/to/1-writeme.js) |
-| `2-statuscode.js` | Write a script that displays the status code of a GET request. The first argument is the URL to request (GET). The status code must be printed in the format: `code: <status_code>`. You must use the module `request`. | [Source Code](path/to/2-statuscode.js) |
-| `3-starwars_title.js` | Write a script that prints the title of a Star Wars movie where the episode number matches a given integer. The first argument is the movie ID. You must use the Star Wars API with the endpoint `https://swapi-api.alx-tools.com/api/films/:id`. You must use the module `request`. | [Source Code](path/to/3-starwars_title.js) |
-| `4-starwars_count.js` | Write a script that prints the number of movies where the character "Wedge Antilles" is present. The first argument is the API URL of the Star Wars API: `https://swapi-api.alx-tools.com/api/films/`. Wedge Antilles is character ID 18 - your script must use this ID for filtering the result of the API. You must use the module `request`. | [Source Code](path/to/4-starwars_count.js) |
-| `5-request_store.js` | Write a script that gets the contents of a webpage and stores it in a file. The first argument is the URL to request. The second argument is the file path to store the body response. The file must be UTF-8 encoded. You must use the module `request`. | [Source Code](path/to/5-request_store.js) |
-| `6-completed_tasks.js` | Write a script that computes the number of tasks completed by user ID. The first argument is the API URL: `https://jsonplaceholder.typicode.com/todos`. Only print users with completed tasks. You must use the module `request`. | [Source Code](path/to/6-completed_tasks.js) |
-| `100-starwars_characters.js` | Write a script that prints all characters of a Star Wars movie. The first argument is the Movie ID - example: 3 = “Return of the Jedi”. Display one character name per line. You must use the Star Wars API. You must use the module `request`. | [Source Code](path/to/100-starwars_characters.js) |
-| `101-starwars_characters.js` | Write a script that prints all characters of a Star Wars movie in the same order as listed in the `characters` field. The first argument is the Movie ID - example: 3 = “Return of the Jedi”. Display one character name per line in the same order of the list “characters” in the `/films/` response. You must use the Star Wars API. You must use the module `request`. | [Source Code](path/to/101-starwars_characters.js) |
+| `0-readme.js` | Write a script that reads and prints the content of a file. The first argument is the file path. The content of the file must be read in UTF-8. If an error occurs during reading, print the error object. | [Source Code](/0-readme.js) |
+| `1-writeme.js` | Write a script that writes a string to a file. The first argument is the file path. The second argument is the string to write. The content of the file must be written in UTF-8. If an error occurs during writing, print the error object. | [Source Code](/1-writeme.js) |
+| `2-statuscode.js` | Write a script that displays the status code of a GET request. The first argument is the URL to request (GET). The status code must be printed in the format: `code: <status_code>`. You must use the module `request`. | [Source Code](/2-statuscode.js) |
+| `3-starwars_title.js` | Write a script that prints the title of a Star Wars movie where the episode number matches a given integer. The first argument is the movie ID. You must use the Star Wars API with the endpoint `https://swapi-api.alx-tools.com/api/films/:id`. You must use the module `request`. | [Source Code](/3-starwars_title.js) |
+| `4-starwars_count.js` | Write a script that prints the number of movies where the character "Wedge Antilles" is present. The first argument is the API URL of the Star Wars API: `https://swapi-api.alx-tools.com/api/films/`. Wedge Antilles is character ID 18 - your script must use this ID for filtering the result of the API. You must use the module `request`. | [Source Code](/4-starwars_count.js) |
+| `5-request_store.js` | Write a script that gets the contents of a webpage and stores it in a file. The first argument is the URL to request. The second argument is the file path to store the body response. The file must be UTF-8 encoded. You must use the module `request`. | [Source Code](/5-request_store.js) |
+| `6-completed_tasks.js` | Write a script that computes the number of tasks completed by user ID. The first argument is the API URL: `https://jsonplaceholder.typicode.com/todos`. Only print users with completed tasks. You must use the module `request`. | [Source Code](/6-completed_tasks.js) |
+| `100-starwars_characters.js` | Write a script that prints all characters of a Star Wars movie. The first argument is the Movie ID - example: 3 = “Return of the Jedi”. Display one character name per line. You must use the Star Wars API. You must use the module `request`. | [Source Code](/100-starwars_characters.js) |
+| `101-starwars_characters.js` | Write a script that prints all characters of a Star Wars movie in the same order as listed in the `characters` field. The first argument is the Movie ID - example: 3 = “Return of the Jedi”. Display one character name per line in the same order of the list “characters” in the `/films/` response. You must use the Star Wars API. You must use the module `request`. | [Source Code](/101-starwars_characters.js) |
 
 ## Features
 
@@ -69,9 +69,9 @@ By the end of this project, you should be able to:
 
 4. **To execute each script, use the following command structure:**
 
-```bash
-./<script_name> <argument1> <argument2>
-```
+   ```bash
+   ./<script_name> <argument1> <argument2>
+   ```
 
 ## Additional Info
 
