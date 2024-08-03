@@ -1,3 +1,4 @@
 #!/bin/bash
 python3 -m py_compile "$PYFILE"
 compiled_file=$(find __pycache__ -name "*.pyc")
+mv "$compiled_file" "${PYFILE}c"
