@@ -2,3 +2,4 @@
 python3 -m py_compile "$PYFILE"
 output_file="${PYFILE}c"
 compiled_file="${PYFILE%.*}.cpython-*.pyc"
+mv "$compiled_file" "$output_file"
