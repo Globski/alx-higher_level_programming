@@ -1,3 +1,4 @@
 #!/bin/bash
-export PYFILE="main.py"
-python3 -m py_compile $PYFILE
+python3 -m py_compile "$PYFILE"
+output_file="${PYFILE}c"
+compiled_file="${PYFILE%.*}.cpython-*.pyc"
