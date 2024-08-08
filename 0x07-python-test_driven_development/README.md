@@ -8,15 +8,15 @@ This project focuses on implementing various Python functions and writing tests 
 
 | Task | Description | Source Code |
 |------|-------------|-------------|
-| 0. Integers addition | Write a function that adds 2 integers. `def add_integer(a, b=98):` | `0-add_integer.py` |
-| 1. Divide a matrix | Write a function that divides all elements of a matrix. `def matrix_divided(matrix, div):` | `2-matrix_divided.py` |
-| 2. Say my name | Write a function that prints `My name is <first name> <last name>`. `def say_my_name(first_name, last_name=""): ` | `3-say_my_name.py` |
-| 3. Print square | Write a function that prints a square with the character `#`. `def print_square(size):` | `4-print_square.py` |
-| 4. Text indentation | Write a function that prints a text with 2 new lines after each of these characters: `., ?` and `:`. `def text_indentation(text):` | `5-text_indentation.py` |
-| 5. Max integer - Unittest | Write unittests for the function `def max_integer(list=[]):`. | `6-max_integer.py`<br>`tests/6-max_integer_test.py` |
-| 6. Matrix multiplication | Write a function that multiplies 2 matrices. `def matrix_mul(m_a, m_b):` | `100-matrix_mul.py` |
-| 7. Lazy matrix multiplication | Write a function that multiplies 2 matrices by using the module NumPy. `def lazy_matrix_mul(m_a, m_b):` | `101-lazy_matrix_mul.py` |
-| 8. CPython #3: Python Strings | Create a function that prints Python strings. `void print_python_string(PyObject *p);` | `102-python.c`<br>`102-tests.py` |
+| 0. Integers addition | Write a function that adds 2 integers. `def add_integer(a, b=98):` | [0-add_integer.py](0-add_integer.py) |
+| 1. Divide a matrix | Write a function that divides all elements of a matrix. `def matrix_divided(matrix, div):` | [2-matrix_divided.py](2-matrix_divided.py) |
+| 2. Say my name | Write a function that prints `My name is <first name> <last name>`. `def say_my_name(first_name, last_name=""): ` | [3-say_my_name.py](3-say_my_name.py) |
+| 3. Print square | Write a function that prints a square with the character `#`. `def print_square(size):` | [4-print_square.py](4-print_square.py) |
+| 4. Text indentation | Write a function that prints a text with 2 new lines after each of these characters: `., ?` and `:`. `def text_indentation(text):` | [5-text_indentation.py](5-text_indentation.py) |
+| 5. Max integer - Unittest | Write unittests for the function `def max_integer(list=[]):`. | [6-max_integer.py](6-max_integer.py) <br> [tests/6-max_integer_test.py](tests/6-max_integer_test.py) |
+| 6. Matrix multiplication | Write a function that multiplies 2 matrices. `def matrix_mul(m_a, m_b):` | [100-matrix_mul.py](100-matrix_mul.py) |
+| 7. Lazy matrix multiplication | Write a function that multiplies 2 matrices by using the module NumPy. `def lazy_matrix_mul(m_a, m_b):` | [101-lazy_matrix_mul.py](101-lazy_matrix_mul.py) |
+| 8. CPython #3: Python Strings | Create a function that prints Python strings. `void print_python_string(PyObject *p);` | [102-python.c](102-python.c) <br> [102-tests.py](102-tests.py) |
 
 ## Terms
 - **Test-Driven Development (TDD):** Writing tests before writing the actual code.
@@ -58,9 +58,21 @@ This project focuses on implementing various Python functions and writing tests 
 - Run the Python files directly to test the functions.
 - Use the unittest framework to execute the test files and validate your implementation.
 
+##### Example Usage
+**To run the unittests for task 5:**
+
+```sh
+python3 -m unittest tests/6-max_integer_test.py
+```
+
+**To install NumPy for task 7:**
+
+```sh
+pip3 install numpy==1.15.0
+```
+
 ## Additional Info
 
-- Use `python3 -m unittest tests.6-max_integer_test` to run unittests.
 - Ensure NumPy is installed with `pip3 install numpy==1.15.0` for matrix operations in task 7.
 
 
