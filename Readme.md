@@ -26,3 +26,9 @@ This repository contains a collection of Python programming projects covering va
 | [0x13-javascript-objects_scopes_closures](./0x13-javascript-objects_scopes_closures) | This project covers various JavaScript concepts including objects, scopes, closures, and inheritance. It focuses on creating and manipulating objects, understanding the `this` keyword, handling undefined values, and recognizing variable types and scopes. The project also explores closures and prototypes. |
 | [0x14-javascript-web_scraping](./0x14-javascript-web_scraping) | This project involves creating scripts for web scraping, handling file operations, and API interactions using JavaScript. It covers tasks from reading/writing files to making HTTP requests and interacting with APIs, focusing on practical applications and JSON data manipulation. |
 | [0x15-javascript-web_jquery](./0x15-javascript-web_jquery) | This project involves front-end programming using JavaScript and jQuery, covering selecting and manipulating HTML elements, making GET and POST requests with jQuery Ajax, and handling events. |
+
+Feel free to explore each project's directory for more details, source code, and resources.
+
+---
+
+_Happy Coding!_
