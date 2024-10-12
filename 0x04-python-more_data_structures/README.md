@@ -4,27 +4,25 @@
 
 This project consists of various tasks that involve manipulating data structures in Python, such as lists and dictionaries, as well as converting data types. Each task is designed to strengthen your understanding of Python's built-in functions and data handling capabilities.
 
-## Project Structure
-
-| Task Number | Description                                                                                         | Prototype                                      | Source Code               |
-|-------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------|---------------------------|
-| 0           | Write a function that computes the square value of all integers of a matrix.                       | `def square_matrix_simple(matrix=[])`         | [source_0.py](link_to_file) |
-| 1           | Write a function that replaces all occurrences of an element by another in a new list.             | `def search_replace(my_list, search, replace)`| [source_1.py](link_to_file) |
-| 2           | Write a function that adds all unique integers in a list.                                         | `def uniq_add(my_list=[])`                     | [source_2.py](link_to_file) |
-| 3           | Write a function that returns a set of common elements in two sets.                               | `def common_elements(set_1, set_2)`           | [source_3.py](link_to_file) |
-| 4           | Write a function that returns a set of all elements present in only one set.                      | `def only_diff_elements(set_1, set_2)`        | [source_4.py](link_to_file) |
-| 5           | Write a function that returns the number of keys in a dictionary.                                 | `def number_keys(a_dictionary)`                | [source_5.py](link_to_file) |
-| 6           | Write a function that prints a dictionary by ordered keys.                                        | `def print_sorted_dictionary(a_dictionary)`    | [source_6.py](link_to_file) |
-| 7           | Write a function that replaces or adds key/value in a dictionary.                                  | `def update_dictionary(a_dictionary, key, value)` | [source_7.py](link_to_file) |
-| 8           | Write a function that deletes a key in a dictionary.                                             | `def simple_delete(a_dictionary, key="")`     | [source_8.py](link_to_file) |
-| 9           | Write a function that returns a new dictionary with all values multiplied by 2.                   | `def multiply_by_2(a_dictionary)`              | [source_9.py](link_to_file) |
-| 10          | Write a function that returns a key with the biggest integer value.                               | `def best_score(a_dictionary)`                  | [source_10.py](link_to_file) |
-| 11          | Write a function that returns a list with all values multiplied by a number without using loops.   | `def multiply_list_map(my_list=[], number=0)` | [source_11.py](link_to_file) |
-| 12          | Create a function that converts a Roman numeral to an integer.                                    | `def roman_to_int(roman_string)`               | [source_12.py](link_to_file) |
-| 13          | Write a function that returns the weighted average of all integers tuple (<score>, <weight>).     | `def weight_average(my_list=[])`               | [source_13.py](link_to_file) |
-| 14          | Write a function that computes the square value of all integers of a matrix using map.            | `def square_matrix_map(matrix=[])`             | [source_14.py](link_to_file) |
-| 15          | Write a function that deletes keys with a specific value in a dictionary.                         | `def complex_delete(a_dictionary, value)`      | [source_15.py](link_to_file) |
-| 16          | Create two C functions that print some basic info about Python lists and Python bytes objects.    | `def c_function_1()` and `def c_function_2()` | [source_16.c](link_to_file) |
+| Task Number | Description                                                                                         | Prototype                                      | Source Code                     |
+|-------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------|---------------------------------|
+| 0           | Write a function that computes the square value of all integers of a matrix.                       | `def square_matrix_simple(matrix=[])`         | [0-square_matrix_simple.py](link_to_file) |
+| 1           | Write a function that replaces all occurrences of an element by another in a new list.             | `def search_replace(my_list, search, replace)`| [1-search_replace.py](link_to_file) |
+| 2           | Write a function that adds all unique integers in a list.                                         | `def uniq_add(my_list=[])`                     | [2-uniq_add.py](link_to_file) |
+| 3           | Write a function that returns a set of common elements in two sets.                               | `def common_elements(set_1, set_2)`           | [3-common_elements.py](link_to_file) |
+| 4           | Write a function that returns a set of all elements present in only one set.                      | `def only_diff_elements(set_1, set_2)`        | [4-only_diff_elements.py](link_to_file) |
+| 5           | Write a function that returns the number of keys in a dictionary.                                 | `def number_keys(a_dictionary)`                | [5-number_keys.py](link_to_file) |
+| 6           | Write a function that prints a dictionary by ordered keys.                                        | `def print_sorted_dictionary(a_dictionary)`    | [6-print_sorted_dictionary.py](link_to_file) |
+| 7           | Write a function that replaces or adds key/value in a dictionary.                                  | `def update_dictionary(a_dictionary, key, value)` | [7-update_dictionary.py](link_to_file) |
+| 8           | Write a function that deletes a key in a dictionary.                                             | `def simple_delete(a_dictionary, key="")`     | [8-simple_delete.py](link_to_file) |
+| 9           | Write a function that returns a new dictionary with all values multiplied by 2.                   | `def multiply_by_2(a_dictionary)`              | [9-multiply_by_2.py](link_to_file) |
+| 10          | Write a function that returns a key with the biggest integer value.                               | `def best_score(a_dictionary)`                  | [10-best_score.py](link_to_file) |
+| 11          | Write a function that returns a list with all values multiplied by a number without using loops.   | `def multiply_list_map(my_list=[], number=0)` | [11-multiply_list_map.py](link_to_file) |
+| 12          | Create a function that converts a Roman numeral to an integer.                                    | `def roman_to_int(roman_string)`               | [12-roman_to_int.py](link_to_file) |
+| 13          | Write a function that returns the weighted average of all integers tuple (<score>, <weight>).     | `def weight_average(my_list=[])`               | [100-weight_average.py](link_to_file) |
+| 14          | Write a function that computes the square value of all integers of a matrix using map.            | `def square_matrix_map(matrix=[])`             | [101-square_matrix_map.py](link_to_file) |
+| 15          | Write a function that deletes keys with a specific value in a dictionary.                         | `def complex_delete(a_dictionary, value)`      | [102-complex_delete.py](link_to_file) |
+| 16          | Create two C functions that print some basic info about Python lists and Python bytes objects.    | `def print_python_list(PyObject *p)` and `def print_python_bytes(PyObject *p)` | [103-python.c](link_to_file) |
 
 # Environment
 - Ubuntu 20.04 LTS
