@@ -76,11 +76,76 @@ Here's the corrected project structure table with the appropriate source code li
 | `void print_python_list(PyObject *p);` | Prints info about Python lists in C. |
 | `void print_python_bytes(PyObject *p);` | Prints info about Python bytes objects in C. |
 
+## How to Use
 
-# How to Use
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Run the respective Python file to test individual functions.
+### 1. Clone the Repository
+To get started, clone the repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/yourusername/alx-higher_level_programming.git
+```
+
+Replace `yourusername` with your actual GitHub username.
+
+### 2. Navigate to the Project Directory
+Once the repository is cloned, navigate to the project directory:
+
+```bash
+cd alx-higher_level_programming/0x04-python-more_data_structures
+```
+
+### 3. Testing Individual Functions
+Each Python file in this directory contains a specific function. You can test these functions individually by running the corresponding Python test file. Below are the steps to test each function:
+
+- **For Functions 0 to 10:** Each of these functions can be tested using their respective `main` files (e.g., `0-main.py`, `1-main.py`, etc.). To test a function, simply run:
+
+  ```bash
+  python3 <filename>.py
+  ```
+
+  For example, to test the function in `0-square_matrix_simple.py`, use:
+
+  ```bash
+  python3 0-main.py
+  ```
+
+- **For Function 11 (multiply_list_map):** 
+  Ensure that you have the following test file ready:
+
+  - `11-main.py`
+
+  Run it using:
+
+  ```bash
+  python3 11-main.py
+  ```
+
+- **For Function 12 (roman_to_int):**
+  Use the provided test file:
+
+  ```bash
+  python3 12-main.py
+  ```
+
+- **For Functions 13 to 15:** Use their respective test files (e.g., `100-main.py`, `101-main.py`, etc.).
+
+- **For the C Functions (103-python.c):**
+  First, compile the C code to create a shared library:
+
+  ```bash
+  gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,libPython.so -o libPython.so -fPIC -I/usr/include/python3.x 103-python.c
+  ```
+
+  Replace `python3.x` with your installed Python version (e.g., `python3.8`).
+
+  Then, run the provided test file:
+
+  ```bash
+  python3 103-tests.py
+  ```
+
+### 4. Expected Outputs
+Each test file is designed to display output for various input cases. Ensure you check the console for results after running the tests.
 
 # Tasks
 
