@@ -8,7 +8,7 @@ This repository contains a collection of Python programming projects covering va
 | [0x01-python-if_else_loops_functions](./0x01-python-if_else_loops_functions) | Projects related to Python control structures, conditionals, loops, and functions. Explore and practice various aspects of decision-making and iteration in Python. |
 | [0x02-python-import_modules](./0x02-python-import_modules) | Projects focusing on Python's import and module system. Learn how to import functions, variables, and modules, and apply them in practical programming tasks. |
 | [0x03-python-data_structures](./0x03-python-data_structures) | This project involves solving various tasks related to Python data structures, specifically lists and tuples. The goal is to practice and implement different functions that manipulate these data structures, such as creating and manipulating lists, using common list methods, creating and unpacking tuples, applying sequence concepts in Python, and using the del statement. |
-| [0x04-python-more_data_structures](./0x04-python-more_data_structuress) |  |
+| [0x04-python-more_data_structures](./0x04-python-more_data_structures) |  |
 | [0x05-python-exceptions](./0x05-python-exceptions) |  |
 | [0x06-python-classess](./0x06-python-classes) |  |
 | [0x07-python-test_driven_development](./0x07-python-test_driven_development) |  |
