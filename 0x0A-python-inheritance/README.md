@@ -112,6 +112,26 @@ By the end of this project, you should be able to explain the following concepts
 2. Navigate to the directory containing the Python files.
 3. Run the desired main file using Python 3.
 
+## Additional Notes
+
+1. **Classes and Inheritance**:
+   - **Superclass/Parent Class**: The class from which properties and methods are inherited.
+   - **Subclass/Child Class**: The class that inherits properties and methods from another class.
+
+2. **Attributes and Methods**:
+   - Attributes: Variables that belong to a class.
+   - Methods: Functions defined within a class.
+
+3. **Multiple Inheritance**: When a class inherits from more than one class.
+
+4. **Overriding**: Redefining a method in a subclass that was defined in a parent class.
+
+5. **Built-in Functions**:
+   - `isinstance()`: Checks if an object is an instance of a class or a subclass thereof.
+   - `issubclass()`: Checks if a class is a subclass of another class.
+   - `type()`: Returns the type of an object.
+   - `super()`: Used to call methods from a parent class.
+
 ## Tasks
 
 ### 0. Lookup
@@ -237,23 +257,3 @@ Write a class `MyInt` that inherits from `int`:
 Write a function that adds a new attribute to an object if it’s possible:
 
 Raise a TypeError exception, with the message `can't add new attribute` if the object can’t have new attributes. You are not allowed to use try/except. You are not allowed to import any module.
-
-### Additional Notes
-
-1. **Classes and Inheritance**:
-   - **Superclass/Parent Class**: The class from which properties and methods are inherited.
-   - **Subclass/Child Class**: The class that inherits properties and methods from another class.
-
-2. **Attributes and Methods**:
-   - Attributes: Variables that belong to a class.
-   - Methods: Functions defined within a class.
-
-3. **Multiple Inheritance**: When a class inherits from more than one class.
-
-4. **Overriding**: Redefining a method in a subclass that was defined in a parent class.
-
-5. **Built-in Functions**:
-   - `isinstance()`: Checks if an object is an instance of a class or a subclass thereof.
-   - `issubclass()`: Checks if a class is a subclass of another class.
-   - `type()`: Returns the type of an object.
-   - `super()`: Used to call methods from a parent class.
