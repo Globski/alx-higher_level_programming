@@ -108,6 +108,45 @@ By the end of this project, you should be able to:
 | copy_list       | Returns a copy of a list. |
 | LockedClass     | Prevents dynamic creation of attributes. |
 
+## Additional Note
+
+1. **Everything is an Object**: In Python, all data types are objects, which means they have identity, type, and value.
+  
+2. **Immutable vs Mutable**:
+   - **Immutable**: Objects that cannot be changed after creation (e.g., integers, strings, tuples).
+   - **Mutable**: Objects that can be modified (e.g., lists, dictionaries, sets).
+
+3. **Reference and Assignment**:
+   - Assigning a variable creates a reference to an object, not a copy.
+   - Aliasing occurs when two variables refer to the same object.
+
+4. **Memory and Identifiers**: Every object has a unique identifier, which can be accessed using the `id()` function.
+
+5. **Why Python is Awesome**: Emphasizes readability, simplicity, and a vast ecosystem.
+  
+6. **Object vs Class**: A class is a blueprint; an object is an instance of that class.
+
+7. **References and Aliasing**:
+   - To check if two variables are identical, use `a is b`.
+   - To see if two variables point to the same object, again use `a is b`.
+
+8. **Memory Management**: Use the `id()` function to display a variable's identifier.
+
+10. **What is an object?**  
+   An object is an instance of a class, containing data and methods.
+
+11. **What is the difference between a class and an object?**  
+   A class is a blueprint for creating objects; an object is an instantiated class.
+
+12. **What is an immutable object?**  
+   An immutable object is one whose state cannot be modified after it is created.
+
+13. **How to check if two variables are linked to the same object?**  
+   Use `a is b` to check if both variables reference the same object.
+
+14. **How to display the variable identifier?**  
+   Use `id(variable)` to display the memory address of the variable.
+
 ## Tasks
 
 0. Who am I?  
@@ -352,43 +391,3 @@ How many string objects are created by the execution of the second line of the s
 After the execution of line 3, is the string object pointed by a deleted? Answer with Yes or No (106-line3.txt)  
 After the execution of line 4, is the string object pointed by b deleted? Answer with Yes or No (106-line4.txt)  
 How many string objects are created by the execution of the last line of the script (106-line5.txt).
-
-
-## Additional Note
-
-1. **Everything is an Object**: In Python, all data types are objects, which means they have identity, type, and value.
-  
-2. **Immutable vs Mutable**:
-   - **Immutable**: Objects that cannot be changed after creation (e.g., integers, strings, tuples).
-   - **Mutable**: Objects that can be modified (e.g., lists, dictionaries, sets).
-
-3. **Reference and Assignment**:
-   - Assigning a variable creates a reference to an object, not a copy.
-   - Aliasing occurs when two variables refer to the same object.
-
-4. **Memory and Identifiers**: Every object has a unique identifier, which can be accessed using the `id()` function.
-
-5. **Why Python is Awesome**: Emphasizes readability, simplicity, and a vast ecosystem.
-  
-6. **Object vs Class**: A class is a blueprint; an object is an instance of that class.
-
-7. **References and Aliasing**:
-   - To check if two variables are identical, use `a is b`.
-   - To see if two variables point to the same object, again use `a is b`.
-
-8. **Memory Management**: Use the `id()` function to display a variable's identifier.
-
-10. **What is an object?**  
-   An object is an instance of a class, containing data and methods.
-
-11. **What is the difference between a class and an object?**  
-   A class is a blueprint for creating objects; an object is an instantiated class.
-
-12. **What is an immutable object?**  
-   An immutable object is one whose state cannot be modified after it is created.
-
-13. **How to check if two variables are linked to the same object?**  
-   Use `a is b` to check if both variables reference the same object.
-
-14. **How to display the variable identifier?**  
-   Use `id(variable)` to display the memory address of the variable.
