@@ -50,29 +50,164 @@ After completing this project, you should be able to:
 - All SQL keywords should be in uppercase
 - All files should end with a new line
 
-## How to Use
+# How to Use
 
-Follow these steps to run the SQL scripts:
+1. Install **MySQL 8.0** if it is not already installed.
 
-1. Make sure you have MySQL 8.0 installed on your Ubuntu 20.04 LTS system.
-2. Clone the repository to your local machine.
-3. Navigate to the directory containing the SQL files.
-4. Open a terminal and execute the scripts using the MySQL command-line client.
-5. Provide any required credentials when prompted.
+   ```bash
+   sudo apt update
+   sudo apt install mysql-server
+   ```
+
+2. **Start MySQL:**
+   - Start the MySQL service.
+
+   ```bash
+   sudo service mysql start
+   ```
+
+3. **Connect to MySQL:**
+   - Access the MySQL monitor.
+
+   ```bash
+   sudo mysql
+   ```
+
+4. **Container Setup (if applicable):**
+   - If using a "container-on-demand," request an Ubuntu 20.04 container.
+   - Connect using SSH or the web terminal.
+   - Start MySQL inside the container.
+
+   ```bash
+   service mysql start
+   ```
 
 ## Additional Info
 
-- Install MySQL 8.0 on Ubuntu 20.04 LTS:
-  ```
-  $ sudo apt update
-  $ sudo apt install mysql-server
-  ```
-  - Use "container-on-demand" to run MySQL:
-  ```
-  $ service mysql start
-  ```
-- Connect to MySQL server:
-  ```
-  $ sudo mysql
-  ```
+## Comments and Documentation
 
+- Each SQL query must have a comment directly above it explaining its purpose. This improves readability and helps reviewers understand your work.
+
+   ```sql
+   -- Fetch all records from the students table
+   SELECT * FROM students;
+   ```
+
+## Task Execution
+
+1. **Write SQL Queries:**
+   - Ensure all SQL keywords are written in uppercase (e.g., `SELECT`, `FROM`, `WHERE`).
+
+2. **Running Your SQL Scripts:**
+   - You can execute your SQL scripts directly from the command line using:
+
+   ```bash
+   cat your_script.sql | mysql -uroot -p
+   ```
+
+   - Replace `your_script.sql` with the appropriate SQL file name.
+
+3. **Testing Queries:**
+   - After writing each query, test it to ensure it behaves as expected. Check for syntax errors.
+
+## Troubleshooting
+
+- If you encounter issues:
+   - Double-check your SQL syntax for errors.
+   - Ensure MySQL is running correctly and that you are connected.
+
+### Tasks
+
+0. **List databases**  
+   Write a script that lists all databases of your MySQL server.
+
+1. **Create a database**  
+   Write a script that creates the database `hbtn_0c_0` in your MySQL server. If the database `hbtn_0c_0` already exists, your script should not fail. You are not allowed to use the SELECT or SHOW statements.
+
+2. **Delete a database**  
+   Write a script that deletes the database `hbtn_0c_0` in your MySQL server. If the database `hbtn_0c_0` doesn’t exist, your script should not fail. You are not allowed to use the SELECT or SHOW statements.
+
+3. **List tables**  
+   Write a script that lists all the tables of a database in your MySQL server. The database name will be passed as an argument of the mysql command.
+
+4. **First table**  
+   Write a script that creates a table called `first_table` in the current database in your MySQL server.  
+   `first_table` description:  
+   - id INT  
+   - name VARCHAR(256)  
+   The database name will be passed as an argument of the mysql command. If the table `first_table` already exists, your script should not fail. You are not allowed to use the SELECT or SHOW statements.
+
+5. **Full description**  
+   Write a script that prints the full description of the table `first_table` from the database `hbtn_0c_0` in your MySQL server. The database name will be passed as an argument of the mysql command. You are not allowed to use the DESCRIBE or EXPLAIN statements.
+
+6. **List all in table**  
+   Write a script that lists all rows of the table `first_table` from the database `hbtn_0c_0` in your MySQL server. All fields should be printed. The database name will be passed as an argument of the mysql command.
+
+7. **First add**  
+   Write a script that inserts a new row in the table `first_table` (database `hbtn_0c_0`) in your MySQL server.  
+   New row:  
+   - id = 89  
+   - name = Best School  
+   The database name will be passed as an argument of the mysql command.
+
+8. **Count 89**  
+   Write a script that displays the number of records with id = 89 in the table `first_table` of the database `hbtn_0c_0` in your MySQL server. The database name will be passed as an argument of the mysql command.
+
+9. **Full creation**  
+   Write a script that creates a table `second_table` in the database `hbtn_0c_0` in your MySQL server and add multiple rows.  
+   `second_table` description:  
+   - id INT  
+   - name VARCHAR(256)  
+   - score INT  
+   The database name will be passed as an argument to the mysql command. If the table `second_table` already exists, your script should not fail. You are not allowed to use the SELECT and SHOW statements. Your script should create these records:  
+   - id = 1, name = “John”, score = 10  
+   - id = 2, name = “Alex”, score = 3  
+   - id = 3, name = “Bob”, score = 14  
+   - id = 4, name = “George”, score = 8  
+
+10. **List by best**  
+    Write a script that lists all records of the table `second_table` of the database `hbtn_0c_0` in your MySQL server.  
+    Results should display both the score and the name (in this order). Records should be ordered by score (top first). The database name will be passed as an argument of the mysql command.
+
+11. **Select the best**  
+    Write a script that lists all records with a score >= 10 in the table `second_table` of the database `hbtn_0c_0` in your MySQL server.  
+    Results should display both the score and the name (in this order). Records should be ordered by score (top first). The database name will be passed as an argument of the mysql command.
+
+12. **Cheating is bad**  
+    Write a script that updates the score of Bob to 10 in the table `second_table`. You are not allowed to use Bob’s id value, only the name field. The database name will be passed as an argument of the mysql command.
+
+13. **Score too low**  
+    Write a script that removes all records with a score <= 5 in the table `second_table` of the database `hbtn_0c_0` in your MySQL server. The database name will be passed as an argument to the mysql command.
+
+14. **Average**  
+    Write a script that computes the score average of all records in the table `second_table` of the database `hbtn_0c_0` in your MySQL server. The result column name should be average. The database name will be passed as an argument of the mysql command.
+
+15. **Number by score**  
+    Write a script that lists the number of records with the same score in the table `second_table` of the database `hbtn_0c_0` in your MySQL server.  
+    The result should display:  
+    - the score  
+    - the number of records for this score with the label number  
+    The list should be sorted by the number of records (descending). The database name will be passed as an argument to the mysql command.
+
+16. **Say my name**  
+    Write a script that lists all records of the table `second_table` of the database `hbtn_0c_0` in your MySQL server.  
+    Don’t list rows without a name value. Results should display the score and the name (in this order). Records should be listed by descending score. The database name will be passed as an argument of the mysql command.
+
+17. **Go to UTF8**  
+    Write a script that converts `hbtn_0c_0` database to UTF8 (utf8mb4, collate utf8mb4_unicode_ci) in your MySQL server.  
+    You need to convert all of the following to UTF8:  
+    - Database `hbtn_0c_0`  
+    - Table `first_table`  
+    - Field `name` in `first_table`  
+
+18. **Temperatures #0**  
+    Import in `hbtn_0c_0` database this table dump: download.  
+    Write a script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
+
+19. **Temperatures #1**  
+    Import in `hbtn_0c_0` database this table dump: download (same as Temperatures #0).  
+    Write a script that displays the top 3 of cities temperature during July and August ordered by temperature (descending).
+
+20. **Temperatures #2**  
+    Import in `hbtn_0c_0` database this table dump: download (same as Temperatures #0).  
+    Write a script that displays the max temperature of each state (ordered by State name).
