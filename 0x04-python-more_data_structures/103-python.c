@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * print_python_bytes - prints basic info about Python bytes objects
- * @p: PyObject pointer to a bytes object
+ * print_python_bytes - Prints basic info about Python bytes objects.
+ * @p: A PyObject pointer to a bytes object.
  */
 void print_python_bytes(PyObject *p)
 {
@@ -14,12 +14,12 @@ void print_python_bytes(PyObject *p)
         return;
     }
 
-    Py_ssize_t size = PyObject_Length(p);
+    Py_ssize_t size = PyBytes_Size(p);
     const char *str = PyBytes_AsString(p);
 
     printf("[.] bytes object info\n");
     printf("  size: %zd\n", size);
-    printf("  trying string: %s\n", str);
+    printf("  trying string: %s\n", str ? str : "(null)");
     printf("  first %zd bytes: ", size < 10 ? size : 10);
 
     for (Py_ssize_t i = 0; i < (size < 10 ? size : 10); i++)
@@ -32,8 +32,8 @@ void print_python_bytes(PyObject *p)
 }
 
 /**
- * print_python_list - prints basic info about Python lists
- * @p: PyObject pointer to a list object
+ * print_python_list - Prints basic info about Python lists.
+ * @p: A PyObject pointer to a list object.
  */
 void print_python_list(PyObject *p)
 {
@@ -43,9 +43,12 @@ void print_python_list(PyObject *p)
         return;
     }
 
-    Py_ssize_t size = PyObject_Length(p);
+    Py_ssize_t size = PyList_Size(p);
+    Py_ssize_t allocated = ((PyListObject *)p)->allocated;
+
     printf("[*] Python list info\n");
     printf("[*] Size of the Python List = %zd\n", size);
+    printf("[*] Allocated = %zd\n", allocated);
 
     for (Py_ssize_t i = 0; i < size; i++)
     {
