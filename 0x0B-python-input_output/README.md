@@ -121,6 +121,19 @@ def my_function():
    - Write test cases for your functions using `doctest`.
    - Execute tests with `python3 -m doctest ./tests/*`.
 
+## Additional Notes
+
+1. **File Handling in Python**
+   - **Opening a file**: Use the `open()` function.
+   - **Reading a file**: Use methods like `.read()`, `.readline()`, or `.readlines()`.
+   - **Writing to a file**: Use `.write()` or `.writelines()`.
+   - **Using the `with` statement**: Ensures files are properly closed after their suite finishes.
+
+2. **JSON in Python**
+   - **Serialization**: Converting a Python object to a JSON string.
+   - **Deserialization**: Converting a JSON string back to a Python object.
+   - Use the `json` module for these operations.
+
 ## Task
 
 ### 0. Read File
@@ -237,16 +250,3 @@ Write a script that reads stdin line by line and computes metrics:
         - if a status code doesn’t appear, don’t print anything for this status code.
         - format: `<status code>: <number>`.
         - status codes should be printed in ascending order.
-
-## Additional Notes
-
-1. **File Handling in Python**
-   - **Opening a file**: Use the `open()` function.
-   - **Reading a file**: Use methods like `.read()`, `.readline()`, or `.readlines()`.
-   - **Writing to a file**: Use `.write()` or `.writelines()`.
-   - **Using the `with` statement**: Ensures files are properly closed after their suite finishes.
-
-2. **JSON in Python**
-   - **Serialization**: Converting a Python object to a JSON string.
-   - **Deserialization**: Converting a JSON string back to a Python object.
-   - Use the `json` module for these operations.
