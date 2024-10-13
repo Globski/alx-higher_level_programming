@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 #define PY_SSIZE_T_CLEAN
 #include <Python.h>
 #include <stdio.h>
