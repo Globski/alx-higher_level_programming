@@ -1,6 +1,4 @@
-#define PY_SSIZE_T_CLEAN
 #include <Python.h>
-#include <stdio.h>
 
 /**
  * print_python_bytes - Prints basic info about Python bytes objects.
