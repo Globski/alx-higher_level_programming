@@ -147,6 +147,39 @@ Each Python file in this directory contains a specific function. You can test th
 ### 4. Expected Outputs
 Each test file is designed to display output for various input cases. Ensure you check the console for results after running the tests.
 
+## Additional Notes
+
+1. **Sets**:
+   - **Definition**: A set is an unordered collection of unique elements.
+   - **Common Methods**:
+     - `add()`: Adds an element to the set.
+     - `remove()`: Removes an element; raises an error if not found.
+     - `discard()`: Removes an element; does not raise an error if not found.
+     - `union()`: Combines two sets.
+     - `intersection()`: Returns common elements.
+   - **When to Use**: Use sets when you need to store unique items and perform mathematical set operations (e.g., union, intersection).
+
+2. **Dictionaries**:
+   - **Definition**: A dictionary is a collection of key-value pairs, where keys are unique.
+   - **Common Methods**:
+     - `get()`: Retrieves a value based on the key.
+     - `keys()`: Returns a view of the keys.
+     - `values()`: Returns a view of the values.
+     - `items()`: Returns a view of key-value pairs.
+   - **When to Use**: Use dictionaries when you need to associate values with unique keys and access them efficiently.
+
+3. **Lambda Functions**:
+   - **Definition**: A small anonymous function defined with the `lambda` keyword.
+   - **Usage**: Useful for short, throwaway functions, often used with `map()`, `filter()`, and `reduce()`.
+
+4. **Higher-order Functions**:
+   - **`map()`**: Applies a function to every item of an iterable.
+   - **`filter()`**: Creates a list of elements for which a function returns true.
+   - **`reduce()`**: Applies a rolling computation to sequential pairs of values in a list (requires `functools`).
+
+
+- **Iteration**: Use loops to iterate over sets and dictionaries. For sets, you can use the `for` loop; for dictionaries, you can iterate over keys, values, or items.
+
 # Tasks
 
 0. **Squared simple**
@@ -676,37 +709,3 @@ Element 0: str
   [ERROR] Invalid Bytes Object
 julien@ubuntu:~/CPython$ 
   ```
-
-
-## Additional Notes
-
-1. **Sets**:
-   - **Definition**: A set is an unordered collection of unique elements.
-   - **Common Methods**:
-     - `add()`: Adds an element to the set.
-     - `remove()`: Removes an element; raises an error if not found.
-     - `discard()`: Removes an element; does not raise an error if not found.
-     - `union()`: Combines two sets.
-     - `intersection()`: Returns common elements.
-   - **When to Use**: Use sets when you need to store unique items and perform mathematical set operations (e.g., union, intersection).
-
-2. **Dictionaries**:
-   - **Definition**: A dictionary is a collection of key-value pairs, where keys are unique.
-   - **Common Methods**:
-     - `get()`: Retrieves a value based on the key.
-     - `keys()`: Returns a view of the keys.
-     - `values()`: Returns a view of the values.
-     - `items()`: Returns a view of key-value pairs.
-   - **When to Use**: Use dictionaries when you need to associate values with unique keys and access them efficiently.
-
-3. **Lambda Functions**:
-   - **Definition**: A small anonymous function defined with the `lambda` keyword.
-   - **Usage**: Useful for short, throwaway functions, often used with `map()`, `filter()`, and `reduce()`.
-
-4. **Higher-order Functions**:
-   - **`map()`**: Applies a function to every item of an iterable.
-   - **`filter()`**: Creates a list of elements for which a function returns true.
-   - **`reduce()`**: Applies a rolling computation to sequential pairs of values in a list (requires `functools`).
-
-
-- **Iteration**: Use loops to iterate over sets and dictionaries. For sets, you can use the `for` loop; for dictionaries, you can iterate over keys, values, or items.
