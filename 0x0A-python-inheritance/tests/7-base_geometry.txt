@@ -1,0 +1,4 @@
+# Test for BaseGeometry class
+
+# Create an instance of BaseGeometry
+bg = BaseGeometry()
