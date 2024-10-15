@@ -3,3 +3,9 @@
 # Create an empty MyList
 my_list = MyList()
 print(my_list)
+
+# Call print_sorted on the empty MyList
+my_list.print_sorted()
+
+# Check if the length of the list is still 0
+print(len(my_list))
