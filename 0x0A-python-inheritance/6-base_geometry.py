@@ -8,7 +8,7 @@ class BaseGeometry:
     """
     A base class for geometry-related classes.
     """
-    
+
     def area(self):
         """
         Raises an Exception indicating area is not implemented.
