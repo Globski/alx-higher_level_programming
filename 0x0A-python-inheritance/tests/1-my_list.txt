@@ -1,0 +1,5 @@
+# Test for MyList class
+
+# Create an empty MyList
+my_list = MyList()
+print(my_list)
