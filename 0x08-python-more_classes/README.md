@@ -86,6 +86,44 @@ This project contains tasks aimed at deepening understanding of object-oriented 
 
 To use the classes, create instances and call the methods as demonstrated in the respective task examples.
 
+## Additional Notes
+
+1. **Object-Oriented Programming (OOP)**:
+   - A programming paradigm based on the concept of "objects," which can contain data and code.
+
+2. **Classes and Objects**:
+   - A **class** is a blueprint for creating objects. An **object** (or instance) is a specific realization of a class.
+   - Example: `class Dog:` defines the Dog class, while `my_dog = Dog()` creates an instance of that class.
+
+3. **Attributes**:
+   - Variables that belong to a class or an object.
+   - **Class attributes** are shared among all instances, while **instance attributes** are unique to each instance.
+
+4. **Methods**:
+   - Functions defined within a class that operate on instances of the class.
+   - The first parameter is typically `self`, which refers to the instance itself.
+
+5. **Special Methods**:
+   - `__init__`: The constructor method that initializes an instance.
+   - `__str__` and `__repr__`: Methods that define string representations of the object.
+
+6. **Data Encapsulation**:
+   - Restricting access to certain attributes to prevent unintended interference and misuse.
+   - Use of public, protected, and private attributes (e.g., `_protected`, `__private`).
+
+7. **Properties**:
+   - Use properties to manage access to attributes, allowing you to use getter/setter logic while keeping the attribute access syntax clean.
+
+8. **Class and Static Methods**:
+   - `@classmethod`: Receives the class as its first argument, allowing access to class attributes.
+   - `@staticmethod`: Does not take a class or instance as a parameter, acting like a regular function.
+
+9. **Dynamic Attributes**:
+   - You can add attributes to instances dynamically by simply assigning a value (e.g., `instance.new_attribute = value`).
+
+10. **`__dict__`**:
+    - A dictionary representation of an object's attributes and their values.
+
 ## Tasks
 
 ## Task 0: My First Rectangle
@@ -179,41 +217,3 @@ The N queens puzzle is the challenge of placing N non-attacking queens on an N×
 - The program should print every possible solution to the problem
 - One solution per line
 - Format: see example
-
-## Additional Notes
-
-1. **Object-Oriented Programming (OOP)**:
-   - A programming paradigm based on the concept of "objects," which can contain data and code.
-
-2. **Classes and Objects**:
-   - A **class** is a blueprint for creating objects. An **object** (or instance) is a specific realization of a class.
-   - Example: `class Dog:` defines the Dog class, while `my_dog = Dog()` creates an instance of that class.
-
-3. **Attributes**:
-   - Variables that belong to a class or an object.
-   - **Class attributes** are shared among all instances, while **instance attributes** are unique to each instance.
-
-4. **Methods**:
-   - Functions defined within a class that operate on instances of the class.
-   - The first parameter is typically `self`, which refers to the instance itself.
-
-5. **Special Methods**:
-   - `__init__`: The constructor method that initializes an instance.
-   - `__str__` and `__repr__`: Methods that define string representations of the object.
-
-6. **Data Encapsulation**:
-   - Restricting access to certain attributes to prevent unintended interference and misuse.
-   - Use of public, protected, and private attributes (e.g., `_protected`, `__private`).
-
-7. **Properties**:
-   - Use properties to manage access to attributes, allowing you to use getter/setter logic while keeping the attribute access syntax clean.
-
-8. **Class and Static Methods**:
-   - `@classmethod`: Receives the class as its first argument, allowing access to class attributes.
-   - `@staticmethod`: Does not take a class or instance as a parameter, acting like a regular function.
-
-9. **Dynamic Attributes**:
-   - You can add attributes to instances dynamically by simply assigning a value (e.g., `instance.new_attribute = value`).
-
-10. **`__dict__`**:
-    - A dictionary representation of an object's attributes and their values.

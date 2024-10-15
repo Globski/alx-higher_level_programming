@@ -49,7 +49,7 @@ After completing this project, you should be able to:
 
 - All SQL keywords should be in uppercase (e.g., SELECT, WHERE)
 
-## Project Setup
+## How to Use
 
 ### Install MySQL 8.0 on Ubuntu 20.04 LTS
 
@@ -90,6 +90,17 @@ Bye
 $ service mysql start
 * Starting MySQL database server mysqld
 ```
+
+## Run the scripts
+
+1. Ensure MySQL server is running.
+2. Use the following command to execute each script:
+
+```bash
+$ cat FILENAME.sql | mysql -uroot -p
+```
+
+Replace `FILENAME.sql` with the name of the script you want to run.
 
 ## Tasks
 
@@ -237,14 +248,3 @@ Write a script that lists all shows with a rating greater than 8 in the database
 Write a script that lists all genres with an average rating greater than 8 in the database `hbtn_0d_tvshows`.
 
 **File:** `103-rating_genres.sql`
-
-## How to run the scripts
-
-1. Ensure MySQL server is running.
-2. Use the following command to execute each script:
-
-```bash
-$ cat FILENAME.sql | mysql -uroot -p
-```
-
-Replace `FILENAME.sql` with the name of the script you want to run.
