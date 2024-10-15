@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Define a function to check if an object is exactly an instance of a specified class.
+Define a function to check if an object 
+is exactly an instance of a specified class.
 """
 
 
