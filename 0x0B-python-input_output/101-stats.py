@@ -14,6 +14,7 @@ After every 10 lines and upon a keyboard interruption (CTRL + C), it prints:
 
 import sys
 
+
 def parse_log():
     """Parses log entries from stdin and computes metrics.
 
@@ -33,21 +34,24 @@ def parse_log():
         '405': 0,
         '500': 0
     }
-    
+
     line_count = 0
 
     try:
         for line in sys.stdin:
             line_count += 1
             parts = line.split()
+
             if len(parts) >= 9:
                 status_code = parts[-2]
-                file_size = int(parts[-1])
-                
-                total_size += file_size
+                try:
+                    file_size = int(parts[-1])
+                    total_size += file_size
 
-                if status_code in status_codes:
-                    status_codes[status_code] += 1
+                    if status_code in status_codes:
+                        status_codes[status_code] += 1
+                except ValueError:
+                    continue
 
             if line_count % 10 == 0:
                 print_metrics(total_size, status_codes)
@@ -56,9 +60,7 @@ def parse_log():
         print_metrics(total_size, status_codes)
         sys.exit()
 
-    except Exception as e:
-        print(f"Error: {e}")
-        sys.exit()
+    print_metrics(total_size, status_codes)
 
 def print_metrics(total_size, status_codes):
     """Prints the current metrics."""
@@ -66,6 +68,7 @@ def print_metrics(total_size, status_codes):
     for code in sorted(status_codes.keys()):
         if status_codes[code] > 0:
             print(f"{code}: {status_codes[code]}")
+
 
 if __name__ == "__main__":
     parse_log()
