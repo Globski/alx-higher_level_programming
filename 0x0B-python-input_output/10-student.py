@@ -35,10 +35,10 @@ class Student:
                 'last_name': self.last_name,
                 'age': self.age
             }
-        
+
         filtered_dict = {}
         for attr in attrs:
             if hasattr(self, attr):
                 filtered_dict[attr] = getattr(self, attr)
-        
+
         return filtered_dict
