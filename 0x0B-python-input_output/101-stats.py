@@ -14,47 +14,58 @@ After every 10 lines and upon a keyboard interruption (CTRL + C), it prints:
 
 import sys
 
-
-def print_statistics(total_size, status_codes):
-    """Prints the accumulated statistics.
+def parse_log():
+    """Parses log entries from stdin and computes metrics.
 
     Args:
         total_size (int): The total size of all processed files.
         status_codes (dict): A dictionary containing counts
         of each status code.
     """
-    print("File size: {}".format(total_size))
-    for code in sorted(status_codes.keys()):
-        if status_codes[code] > 0:
-            print("{}: {}".format(code, status_codes[code]))
-
-
-if __name__ == "__main__":
     total_size = 0
     status_codes = {
-        200: 0,
-        301: 0,
-        400: 0,
-        401: 0,
-        403: 0,
-        404: 0,
-        405: 0,
-        500: 0,
+        '200': 0,
+        '301': 0,
+        '400': 0,
+        '401': 0,
+        '403': 0,
+        '404': 0,
+        '405': 0,
+        '500': 0
     }
+    
     line_count = 0
 
     try:
         for line in sys.stdin:
             line_count += 1
             parts = line.split()
-            if len(parts) >= 6:
-                total_size += int(parts[-1])
-                status_code = int(parts[-2])
+            if len(parts) >= 9:
+                status_code = parts[-2]
+                file_size = int(parts[-1])
+                
+                total_size += file_size
+
                 if status_code in status_codes:
                     status_codes[status_code] += 1
 
             if line_count % 10 == 0:
-                print_statistics(total_size, status_codes)
+                print_metrics(total_size, status_codes)
 
     except KeyboardInterrupt:
-        print_statistics(total_size, status_codes)
+        print_metrics(total_size, status_codes)
+        sys.exit()
+
+    except Exception as e:
+        print(f"Error: {e}")
+        sys.exit()
+
+def print_metrics(total_size, status_codes):
+    """Prints the current metrics."""
+    print(f"File size: {total_size}")
+    for code in sorted(status_codes.keys()):
+        if status_codes[code] > 0:
+            print(f"{code}: {status_codes[code]}")
+
+if __name__ == "__main__":
+    parse_log()
