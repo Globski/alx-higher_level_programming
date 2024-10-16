@@ -14,17 +14,20 @@ After every 10 lines and upon a keyboard interruption (CTRL + C), it prints:
 
 import sys
 
+
 def print_statistics(total_size, status_codes):
     """Prints the accumulated statistics.
 
     Args:
         total_size (int): The total size of all processed files.
-        status_codes (dict): A dictionary containing counts of each status code.
+        status_codes (dict): A dictionary containing counts
+        of each status code.
     """
     print("File size: {}".format(total_size))
     for code in sorted(status_codes.keys()):
         if status_codes[code] > 0:
             print("{}: {}".format(code, status_codes[code]))
+
 
 if __name__ == "__main__":
     total_size = 0
