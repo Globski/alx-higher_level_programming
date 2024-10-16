@@ -10,3 +10,4 @@ for student in students:
     print(type(j_student['first_name']))
     print(j_student['age'])
     print(type(j_student['age']))
+
