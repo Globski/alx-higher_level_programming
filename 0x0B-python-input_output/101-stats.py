@@ -65,6 +65,7 @@ def parse_log():
 
     print_metrics(total_size, status_codes)
 
+
 def print_metrics(total_size, status_codes):
     """Prints the current metrics."""
     print(f"File size: {total_size}")
