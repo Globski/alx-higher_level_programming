@@ -250,4 +250,3 @@ Write a script that reads stdin line by line and computes metrics:
         - if a status code doesn’t appear, don’t print anything for this status code.
         - format: `<status code>: <number>`.
         - status codes should be printed in ascending order.
----
