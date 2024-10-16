@@ -42,16 +42,19 @@ def parse_log():
             line_count += 1
             parts = line.split()
 
-            if len(parts) >= 9:
-                status_code = parts[-2]
-                try:
-                    file_size = int(parts[-1])
-                    total_size += file_size
+            if len(parts) < 9:
+                continue
 
-                    if status_code in status_codes:
-                        status_codes[status_code] += 1
-                except ValueError:
-                    continue
+            try:
+                status_code = parts[-2]
+                file_size = int(parts[-1])
+            except (IndexError, ValueError):
+                continue
+
+            total_size += file_size
+
+            if status_code in status_codes:
+                status_codes[status_code] += 1
 
             if line_count % 10 == 0:
                 print_metrics(total_size, status_codes)
