@@ -48,13 +48,14 @@ def parse_log():
             try:
                 status_code = parts[-2]
                 file_size = int(parts[-1])
-            except (IndexError, ValueError):
+
+                total_size += file_size
+
+                if status_code in status_codes:
+                    status_codes[status_code] += 1
+
+            except (ValueError, IndexError):
                 continue
-
-            total_size += file_size
-
-            if status_code in status_codes:
-                status_codes[status_code] += 1
 
             if line_count % 10 == 0:
                 print_metrics(total_size, status_codes)
