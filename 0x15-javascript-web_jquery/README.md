@@ -1,6 +1,6 @@
 # High-Level Programming - JavaScript Web jQuery
 
-# Description
+## Description
 This project involves front-end programming using JavaScript and jQuery. It covers selecting and manipulating HTML elements, making GET and POST requests with jQuery Ajax, and updating text colors. It also involves handling click events, making API requests using jQuery.
 
 ## Project Structure
