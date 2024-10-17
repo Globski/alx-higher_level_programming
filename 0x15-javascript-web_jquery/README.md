@@ -1,7 +1,7 @@
 # High-Level Programming - JavaScript Web jQuery
 
 # Description
-This project involves front-end programming using JavaScript and jQuery. It covers selecting and manipulating HTML elements, making GET and POST requests with jQuery Ajax, and handling events.
+This project involves front-end programming using JavaScript and jQuery. It covers selecting and manipulating HTML elements, making GET and POST requests with jQuery Ajax, and updating text colors. It also involves handling click events, making API requests using jQuery, and managing various events to provide hands-on experience in web development.
 
 ## Project Structure
 | Task | Description | Source Code |
@@ -70,7 +70,7 @@ This project involves front-end programming using JavaScript and jQuery. It cove
    ```
 
 2. Place the JavaScript file in the same directory as your HTML file.
-3. - Ensure that jQuery is properly linked in the HTML files where required.
+3. Ensure that jQuery is properly linked in the HTML files where required.
 4. Open the HTML files in a web browser (preferably Chrome version 57.0) to see the effects of the JavaScript code.
 
 ## Tasks
