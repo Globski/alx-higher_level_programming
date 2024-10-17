@@ -68,10 +68,16 @@ This project involves front-end programming using JavaScript and jQuery. It cove
    git clone https://github.com/alx-higher_level_programming
    cd 0x15-javascript-web_jquery
    ```
+   This will create a local copy of the project in a folder named `0x15-javascript-web_jquery`.
 
 2. Place the JavaScript file in the same directory as your HTML file.
-3. Ensure that jQuery is properly linked in the HTML files where required.
-4. Open the HTML files in a web browser (preferably Chrome version 57.0) to see the effects of the JavaScript code.
+3. **Link jQuery:** Ensure that jQuery is properly linked in the HTML files where required. in the `<head>` section:
+
+  ```html
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  ```
+4. Open the HTML files in a web browser (preferably Chrome version 57.0) to see the effects of the JavaScript code. You can usually do this by right-clicking the file, selecting “Open with” and then choosing your browser.
+5. When you open the HTML file in your browser, the JavaScript will run automatically.
 
 ## Tasks
 
