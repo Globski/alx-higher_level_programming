@@ -23,9 +23,17 @@ This project involves front-end programming using JavaScript and jQuery. It cove
 
 ## Environment
 - Interpreted on Chrome (version 57.0)
+- Text editor or IDE (e.g., VSCode, Atom)
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- jQuery (version 3.x)
 
 ## Requirements
 - Files should end with a new line
+- Internet access for loading jQuery from CDN.
 - Must be semistandard
 
 ## Learning Objectives
@@ -40,10 +48,30 @@ This project involves front-end programming using JavaScript and jQuery. It cove
 - How to make a POST request with JQuery Ajax
 - How to listen/bind to DOM events
 
-### How to Use
-1. Place the JavaScript file in the same directory as your HTML file.
-2. Ensure you have included jQuery in your HTML file.
-3. Load the HTML file in a browser to see the effects of the JavaScript code.
+## Prototype Table
+
+| Prototype | Description |
+|-----------|-------------|
+| `document.querySelector()` | Selects the first element that matches a specified CSS selector. |
+| `$.ajax()` | jQuery method for making asynchronous HTTP requests. |
+| `$(selector).css()` | jQuery method to change the CSS properties of selected elements. |
+| `$(selector).click()` | jQuery method for attaching an event handler to the click event. |
+| `$(selector).addClass()` | jQuery method to add a class to the selected elements. |
+| `$(selector).removeClass()` | jQuery method to remove a class from the selected elements. |
+| `$(selector).toggleClass()` | jQuery method to toggle a class on the selected elements. |
+| `$.get()` | jQuery method for performing a GET request. |
+| `$.post()` | jQuery method for performing a POST request. |
+
+## How to Use
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/alx-higher_level_programming
+   cd 0x15-javascript-web_jquery
+   ```
+
+2. Place the JavaScript file in the same directory as your HTML file.
+3. - Ensure that jQuery is properly linked in the HTML files where required.
+4. Open the HTML files in a web browser (preferably Chrome version 57.0) to see the effects of the JavaScript code.
 
 ## Tasks
 
