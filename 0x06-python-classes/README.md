@@ -589,7 +589,7 @@ guillaume@ubuntu:~/0x06$
 Write the Python class `MagicClass` that does exactly the same as the following Python bytecode:
 
 Disassembly of `__init__`:
-
+[Tip: Python bytecode](https://docs.python.org/3.4/library/dis.html)
 ```
  Disassembly of __init__:
  10           0 LOAD_CONST               1 (0)
