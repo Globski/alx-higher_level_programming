@@ -2,7 +2,8 @@
 
 ## Description
 
-The primary objective of this project is to create a set of classes that represent geometrical shapes, focusing on object manipulation, persistence through serialization, and visual representation. The project includes Rectangle and Square classes, along with a base class Base that manages general attributes and functionalities. Additionally, it implements serialization and deserialization of objects in JSON and CSV formats, as well as graphical representation using Turtle graphics.
+This project focuses on creating classes to represent geometric shapes, with an emphasis on how to manipulate these objects, save them (serialization), and display them visually. The key classes include a **Base** class, which handles common attributes and functions, and two specific shape classes: **Rectangle** and **Square**. The project also covers how to save and load these objects using **JSON** and **CSV** formats (serialization and deserialization). Additionally, it demonstrates how to draw these shapes using **Turtle graphics** for a visual representation.
+
 
 ## Project Structure
 
@@ -32,7 +33,10 @@ The primary objective of this project is to create a set of classes that represe
 | 21       | Let's draw it                                                              | models/base.py                |
 
 ## Environment
-- Python 3.x
+
+- Ubuntu 20.04 LTS
+- Python 3 (version 3.8.5).
+- pycodestyle (version 2.8.*)
 - Turtle graphics library
 
 ## Requirements
@@ -47,7 +51,7 @@ The primary objective of this project is to create a set of classes that represe
   ```
 - **Interpreter:** All scripts must be interpreted on Ubuntu 20.04 LTS using Python 3 (version 3.8.5).
 - Ensure all files are executable.
-- Follow the PEP 8 style guide using `pycodestyle` (version 2.8.*).
+- Follow the PEP 8 style guide using `
 - Document all modules, classes, and functions properly.
 
 ### Python Unit Tests
@@ -109,6 +113,35 @@ You can run the provided test scripts to see the functionality in action:
 ```bash
 python3 0-main.py
 ```
+
+## Additional Notes 
+
+**Unit Testing**
+Unit testing is the process of testing individual units or components of a program (like functions or methods) to ensure they work correctly. It helps catch bugs early and ensures code reliability.
+
+   **How to Implement in a Large Project:**
+   - Use a testing framework like **unittest** (built-in Python library) or **pytest**.
+   - Break down the project into smaller, testable units (classes, functions).
+   - Write test cases for each unit, focusing on different scenarios (expected behavior, edge cases, error handling).
+   - Organize test files separately (e.g., create a `tests` directory).
+   - Automate running tests, especially in Continuous Integration (CI) pipelines.
+
+**Serialization and Deserialization of a Class**
+   **Serialization:** Converting an object into a format that can be stored (like JSON, CSV, etc.).
+   
+   **Deserialization:** Converting stored data back into an object.
+
+
+**What is *args and How to Use It**
+`*args` allows a function to accept a variable number of positional arguments.
+
+**What is **kwargs and How to Use It**
+
+`**kwargs` allows a function to accept a variable number of keyword arguments (i.e., named arguments).
+
+**Handling Named Arguments in a Function**
+   
+   **Named arguments** are specified by their name when calling a function, and they make the function call more readable.
 
 ## Tasks
 
