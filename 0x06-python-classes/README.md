@@ -2,7 +2,7 @@
 
 ## Description
 
-This project emphasizes Object-Oriented Programming (OOP) concepts in Python, covering the creation and management of classes and instances, data encapsulation, and the implementation of attributes and methods. It includes a Square class for modeling squares and a Node class for a singly linked list, effectively demonstrating key OOP principles in Python.
+This project emphasizes Object-Oriented Programming (OOP) concepts in Python. You'll learn how to create and manage classes and instances, encapsulate data, and implement attributes and methods. The project includes a **Square** class for modeling squares and a **Node** class for a singly linked list. These examples effectively demonstrate key OOP principles, helping you understand how to apply OOP in Python.
 
 ## Project Structure
 
@@ -86,6 +86,54 @@ By the end of this project, you should be able to explain:
    ```
 3. Run the main files to test the implementation.
 4. You can instantiate the classes as needed and utilize their methods to perform operations related to squares and linked lists.
+
+## Additional Notes 
+
+- **Why Python programming is awesome**: Python is loved for its simplicity, readability, and versatility, making it suitable for beginners and experts alike.
+
+- **What is OOP**: Object-Oriented Programming (OOP) is a programming paradigm that uses objects and classes to structure code, enabling better organization and reusability.
+
+- **“First-class everything”**: This principle means that in Python, functions and objects can be passed around as values, allowing for flexible and dynamic programming.
+
+- **What is a class**: A class is a blueprint for creating objects that defines attributes and methods, encapsulating related data and behavior.
+
+- **What is an object and an instance**: An object is a specific realization of a class, while an instance refers to the created object that belongs to a particular class.
+
+- **Difference between a class and an object/instance**: A class is a template for creating objects, whereas an object (or instance) is a concrete representation of that class with its own unique data.
+
+- **What is an attribute**: An attribute is a variable that belongs to an object or class, representing data associated with that object or class.
+
+- **Public, protected, and private attributes**: 
+  - **Public attributes** are accessible from outside the class.
+  - **Protected attributes** are intended for internal use and should not be accessed from outside the class hierarchy.
+  - **Private attributes** are prefixed with double underscores and are not accessible outside the class.
+
+- **What is self**: `self` is a reference to the current instance of a class, allowing access to its attributes and methods.
+
+- **What is a method**: A method is a function defined within a class that operates on the instance of that class.
+
+- **What is the special `__init__` method and how to use it**: The `__init__` method is a constructor that initializes a new object’s attributes when it is created.
+
+- **Data Abstraction, Data Encapsulation, and Information Hiding**:
+  - **Data Abstraction** refers to hiding complex implementation details and showing only the essential features of an object.
+  - **Data Encapsulation** involves bundling data and methods that operate on that data within a class.
+  - **Information Hiding** prevents access to certain details of an object to protect its integrity.
+
+- **What is a property**: A property is a special kind of attribute that allows you to customize access to an instance variable using getter and setter methods.
+
+- **Difference between an attribute and a property in Python**: An attribute is a direct variable associated with an object, while a property uses methods to get or set the value of an attribute.
+
+- **Pythonic way to write getters and setters**: Use the `@property` decorator for getters and `@<property_name>.setter` for setters, providing a clean interface for attribute access.
+
+- **How to dynamically create arbitrary new attributes for existing instances of a class**: You can assign new attributes to an instance by directly setting them using dot notation, like `instance.new_attr = value`.
+
+- **How to bind attributes to objects and classes**: You can bind attributes to objects using dot notation and to classes by defining them within the class body.
+
+- **What is the `__dict__` of a class and/or instance**: The `__dict__` attribute is a dictionary that contains all the attributes (and their values) for a class or instance.
+
+- **How does Python find the attributes of an object or class**: Python searches for attributes in the object's `__dict__` first, then in its class, and continues up the inheritance hierarchy if not found.
+
+- **How to use the `getattr` function**: The `getattr` function retrieves an attribute from an object by name, allowing you to access attributes dynamically.
 
 ## Tasks
 
