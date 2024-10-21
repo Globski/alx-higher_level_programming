@@ -4,7 +4,8 @@ Rectangle Module
 
 This module defines the Rectangle class, which represents a rectangle
 with private width and height attributes, methods to calculate area
-and perimeter, string representation, eval compatibility, and instance tracking.
+and perimeter, string representation, eval compatibility,
+and instance tracking.
 """
 
 
