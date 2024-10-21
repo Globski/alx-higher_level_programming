@@ -7,6 +7,7 @@ with private width and height attributes, methods to calculate area
 and perimeter, string representation, and eval compatibility.
 """
 
+
 class Rectangle:
     """
     Rectangle class
