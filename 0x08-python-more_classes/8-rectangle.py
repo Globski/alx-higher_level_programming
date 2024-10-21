@@ -6,6 +6,7 @@ This module defines the Rectangle class, which represents a rectangle
 with customizable print symbols, instance tracking, and comparison methods.
 """
 
+
 class Rectangle:
     """
     Rectangle class
@@ -76,7 +77,9 @@ class Rectangle:
         """Return the string representation of the rectangle."""
         if self.__width == 0 or self.__height == 0:
             return ""
-        return "\n".join(str(self.print_symbol) * self.__width for _ in range(self.__height))
+        return "\n".join(
+            str(self.print_symbol) * self.__width for _ in range(self.__height)
+        )
 
     def __repr__(self):
         """Return the official string representation of the rectangle."""
@@ -106,7 +109,7 @@ class Rectangle:
             raise TypeError("rect_1 must be an instance of Rectangle")
         if not isinstance(rect_2, Rectangle):
             raise TypeError("rect_2 must be an instance of Rectangle")
-        
+
         if rect_1.area() >= rect_2.area():
             return rect_1
         return rect_2
