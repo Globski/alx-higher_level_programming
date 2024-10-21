@@ -19,7 +19,6 @@ class Rectangle:
         height (int): The height of the rectangle.
     """
 
-
     def __init__(self, width=0, height=0):
         """
         Initializes a new Rectangle instance.
