@@ -1,13 +1,3 @@
-#!/usr/bin/python3
-"""
-Rectangle Module
-
-This module defines the Rectangle class, which represents a rectangle
-with private width and height attributes, methods to calculate area
-and perimeter, and string representation.
-"""
-
-
 class Rectangle:
     """
     Rectangle class
@@ -18,6 +8,7 @@ class Rectangle:
         width (int): The width of the rectangle.
         height (int): The height of the rectangle.
     """
+
 
     def __init__(self, width=0, height=0):
         """
@@ -66,7 +57,7 @@ class Rectangle:
         """Return the perimeter of the rectangle."""
         if self.__width == 0 or self.__height == 0:
             return 0
-        return ((self.__width * 2) + (self.__height * 2))
+        return (self.__width * 2) + (self.__height * 2)
 
     def __str__(self):
         """Return the string representation of the rectangle."""
@@ -75,5 +66,5 @@ class Rectangle:
         return "\n".join("#" * self.__width for _ in range(self.__height))
 
     def __repr__(self):
-    """Return the official string representation of the rectangle."""
-    return f"Rectangle({self.width}, {self.height})"
+        """Return the official string representation of the rectangle."""
+        return f"Rectangle({self.width}, {self.height})"
