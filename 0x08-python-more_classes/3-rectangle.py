@@ -1,3 +1,13 @@
+#!/usr/bin/python3
+"""
+Rectangle Module
+
+This module defines the Rectangle class, which represents a rectangle
+with private width and height attributes, methods to calculate area
+and perimeter, and string representation.
+"""
+
+
 class Rectangle:
     """
     Rectangle class
