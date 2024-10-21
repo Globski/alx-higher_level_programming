@@ -7,6 +7,7 @@ with private width and height attributes, methods to calculate area
 and perimeter, and string representation.
 """
 
+
 class Rectangle:
     """
     Rectangle class
@@ -65,7 +66,7 @@ class Rectangle:
         """Return the perimeter of the rectangle."""
         if self.__width == 0 or self.__height == 0:
             return 0
-        return 2 * (self.__width + self.__height)
+        return ((self.__width * 2) + (self.__height * 2))
 
     def __str__(self):
         """Return the string representation of the rectangle."""
