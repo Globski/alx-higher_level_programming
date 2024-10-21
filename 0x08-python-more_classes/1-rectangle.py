@@ -7,6 +7,7 @@ with private width and height attributes, along with their respective
 getter and setter methods.
 """
 
+
 class Rectangle:
     """
     Rectangle class
