@@ -9,6 +9,7 @@ and prints all possible solutions.
 
 import sys
 
+
 def print_solutions(solutions):
     """Print the solutions in the required format.
 
@@ -18,6 +19,7 @@ def print_solutions(solutions):
     """
     for solution in solutions:
         print(solution)
+
 
 def is_safe(board, row, col):
     """Check if it's safe to place a queen at board[row][col].
@@ -37,6 +39,7 @@ def is_safe(board, row, col):
             return False
     return True
 
+
 def solve_n_queens_util(board, row, N, solutions):
     """Utilize backtracking to find all solutions for N Queens.
 
@@ -49,12 +52,13 @@ def solve_n_queens_util(board, row, N, solutions):
     if row == N:
         solutions.append([[i, board[i]] for i in range(N)])
         return
-    
+
     for col in range(N):
         if is_safe(board, row, col):
             board[row] = col
             solve_n_queens_util(board, row + 1, N, solutions)
             board[row] = -1  # Reset the position
+
 
 def solve_n_queens(N):
     """Solve the N Queens problem and return all solutions.
@@ -66,10 +70,11 @@ def solve_n_queens(N):
         list: A list of solutions where each solution is a list of
               [row, col] pairs.
     """
-    board = [-1] * N  # Board initialization
+    board = [-1] * N
     solutions = []
     solve_n_queens_util(board, 0, N, solutions)
     return solutions
+
 
 def main():
     """Main function to handle input and output for the N Queens problem."""
@@ -89,6 +94,7 @@ def main():
 
     solutions = solve_n_queens(N)
     print_solutions(solutions)
+
 
 if __name__ == "__main__":
     main()
