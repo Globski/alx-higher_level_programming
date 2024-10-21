@@ -81,7 +81,6 @@ class Rectangle:
             str(self.print_symbol) * self.__width for _ in range(self.__height)
         )
 
-
     def __repr__(self):
         """Return the official string representation of the rectangle."""
         return f"Rectangle({self.__width}, {self.__height})"
